@@ -5,11 +5,12 @@ import (
   "time"
 )
 
+// Errors lists the possible 404 error messages
 var Errors = []string {
   "Page not found",
   "Oops! Looks like the page is gone...",
   "This link is broken or the page has moved",
-  "Oh no! It looks like the Demogorgean took this page to The Upside Down",
+  "Oh no! It looks like the Demogorgon took this page to The Upside Down",
   "Either we broke something or you cannot type",
   "Oops! That page couldn't be found",
   "Oh no, bad luck!",
@@ -26,6 +27,7 @@ var Errors = []string {
   "Stay calm and don't freak out",
 }
 
+// Generate creates and returns text for a 404 error message
 func Generate() string {
   rand.Seed(time.Now().UnixNano())
   return Errors[rand.Intn(len(Errors) - 1)]
