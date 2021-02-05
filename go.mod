@@ -1,3 +1,3 @@
-module gitlab.com/rshmhrj/go-txtGen
+module gitlab.com/rshmhrj/go-text-gen
 
 go 1.15
