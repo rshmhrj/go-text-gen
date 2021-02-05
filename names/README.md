@@ -55,11 +55,14 @@ Sets the delimiter for output strings
 The default delimiter is the `DotDelimiter` resulting in '.' between all words
 
 You can change to the following delimiters:
-- DashDelimiter '-'
-- BarDelimiter '_'
-- CommaDelimiter ','
-- SpaceDelimiter ' '
 
+| name | delimiter |
+| ------ | ------ |
+| `DotDelimiter` | `.` |
+| `DashDelimiter` | `-` |
+| `BarDelimiter` | `_` |
+| `CommaDelimiter` | `,` |
+| `SpaceDelimiter` | ` ` |
 
 #### NameGen.Generate() string
 Randomly chooses three words in the order adverb, adjective, noun with the chosen delimiter separating each word
